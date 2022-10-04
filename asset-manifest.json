@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ujjawal-PatidarPortfolio/static/css/main.5a3174d5.css",
+    "main.js": "/Ujjawal-PatidarPortfolio/static/js/main.d2fadbe3.js",
+    "static/media/the-breathtaking-beauty-of-nature-hd.mp4": "/Ujjawal-PatidarPortfolio/static/media/the-breathtaking-beauty-of-nature-hd.61d1a75fda7d98746c01.mp4",
+    "static/media/IIST Indore (4).png": "/Ujjawal-PatidarPortfolio/static/media/IIST Indore (4).bef27dc2551b779d513e.png",
+    "static/media/ujjawal2.jpg": "/Ujjawal-PatidarPortfolio/static/media/ujjawal2.18f9400164528a1473ff.jpg",
+    "index.html": "/Ujjawal-PatidarPortfolio/index.html",
+    "main.5a3174d5.css.map": "/Ujjawal-PatidarPortfolio/static/css/main.5a3174d5.css.map",
+    "main.d2fadbe3.js.map": "/Ujjawal-PatidarPortfolio/static/js/main.d2fadbe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a3174d5.css",
+    "static/js/main.d2fadbe3.js"
+  ]
+}
