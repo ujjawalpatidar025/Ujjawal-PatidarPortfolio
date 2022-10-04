@@ -1,0 +1,165 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+
+.experience{
+   
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+
+.svg{
+    background-color:var(--primary);
+}
+.heading{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    margin:40px;
+    color:#111;
+    text-transform: uppercase;
+}
+
+
+
+.heading span{
+    color:var(--primary);
+    text-transform: uppercase;
+}
+
+
+section{
+    padding:1rem 5%;
+    min-height: 100vh;
+}
+
+.experience .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    margin:auto;
+}
+
+.experience .box-container .box{
+    position: relative;
+    flex:1 1 33rem;
+    border-left: .2rem solid var(--primary);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;    
+}
+
+.experience .box-container .box::before{
+    content: '';
+    position: absolute;
+    top:0; left:-1rem;
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    background:var(--primary);
+}
+
+.experience .box-container .box .content{
+    background:#fff;
+    padding:1.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.experience .box-container .box .content span{
+    color:#fff;
+    font-size: 1rem;
+    background:var(--primary);
+    border-radius: 50rem;
+    padding:.4rem 1rem;
+}
+
+.experience .box-container .box .content h3{
+    font-size: 1.5rem;
+    padding:.5rem 0;
+    color:#111;
+}
+
+.experience .box-container .box .content p{
+    font-size: 1rem;
+    color:#666;
+}
+
+
+@media (max-width:991px){
+
+    .experience{
+        font-size: 55%;
+    }
+    .experience .box-container .box .content h3{
+        font-size:1.2rem;
+        padding:.5rem 0;
+        color:#111;
+    }.heading{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        margin:40px;
+        color:#111;
+        text-transform: uppercase;
+    }
+    .experience .box-container .box .content span{
+    color:#fff;
+    font-size: 0.8rem;
+    background:var(--primary);
+    border-radius: 50rem;
+    padding:.4rem 1rem;
+}
+
+    .experience .box-container .box .content p{
+        font-size: 0.7rem;
+        color:#666;
+    }
+}
+
+@media (max-width:450px){
+
+    .experience{
+        font-size: 50%;
+    }
+    .heading{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    margin:40px;
+    color:#111;
+    text-transform: uppercase;
+}
+    .experience .box-container .box .content span{
+    color:#fff;
+    font-size: 0.8rem;
+    background:var(--primary);
+    border-radius: 50rem;
+    padding:.4rem 1rem;
+}
+.experience .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin:auto;
+}
+
+    .experience .box-container .box .content h3{
+        font-size: 1.2rem;
+        padding:.5rem 0;
+        color:#111;
+    }
+    .experience .box-container .box .content p{
+        font-size: 0.9rem;
+        color:#666;
+    }
+
+
+    .experience .box-container .box{
+        padding-right: 0;
+    }
+
+}

@@ -1,0 +1,88 @@
+@import 'https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Changa:wght@200&family=Dancing+Script:wght@400;500&family=Passions+Conflict&display=swap';
+.navbar{
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: sticky ;
+    top:0;
+    left:0;
+    z-index:2;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+  }
+
+.navbar_main{
+    
+    height:70px;
+    
+   
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+
+  .logo{
+      color:var(--primary);
+      font-family: 'Passions Conflict', cursive;
+      font-size:3rem;
+      font-weight:bold;
+      letter-spacing: 0.3rem;
+  }
+
+
+  .list ul{
+    text-decoration: none;
+    list-style: none;
+    width:600px;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  /* button{
+    height:30px;
+    width: 100px;
+    border-radius: 30px;
+    border:none;
+    background-color: var(--primary);
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition:all ease-in-out 0.3s;
+   
+  }
+
+  button:hover{
+      border:2px solid var(--primary);
+      color:var(--primary);
+      background-color:white;
+      cursor:pointer;
+      
+  }
+   */
+   ul li a{
+     font-size:1rem;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     letter-spacing: 0.1rem;
+     margin: 0 0.3rem;
+     transition:all ease-in-out 0.3s;
+    
+
+   }
+   ul li a:hover{
+     color:var(--primary);
+     cursor:pointer;
+     
+   }
+
+
+   @media(max-width:670px)
+   {
+      .list{
+     display:none;
+     }
+   }

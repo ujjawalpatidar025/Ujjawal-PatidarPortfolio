@@ -1,0 +1,62 @@
+@import 'https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Changa:wght@200&family=Dancing+Script:wght@400;500&family=Passions+Conflict&family=Poppins&display=swap';
+*{
+  margin:0;
+  padding:0;
+  font-family:Poppins;
+}
+
+
+.dark_theme {
+  --primary: #2e279d;
+  --primary2: #4d80e4;
+  --primary3: #46b3e6;
+  --primary4: #ace5ff;
+  --secondary: #ffffff;
+  --black:rgb(48, 46, 46);
+  
+}
+.light_theme{
+  --primary: #1fab89;
+  --primary2:#62d2a2;
+  --primary3:#9df3c4;
+  --primary4:#d7fbe8;
+  --secondary:#181818;
+  --black:rgb(255, 255, 255);
+
+}
+
+body{
+  height:100vh;
+  
+  
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+.box_shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+
