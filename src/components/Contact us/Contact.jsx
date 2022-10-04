@@ -57,7 +57,7 @@ const Contact = () => {
               <a href="https://www.instagram.com/its_u_jjawal/" target='__blank'>
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="ttps://in.linkedin.com/in/ujjawal-patidar-81091b206?trk=people-guest_people_search-card" target='__blank'>
+              <a href="https://in.linkedin.com/in/ujjawal-patidar-81091b206?trk=people-guest_people_search-card" target='__blank'>
                 <i class="fab fa-linkedin-in"></i>
               </a>
               <a href="http://wa.me/+917987210447" target='__blank'>
